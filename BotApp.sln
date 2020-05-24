@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotApp", "BotApp\BotApp.csproj", "{FDFC4699-AA08-476A-89B7-DDC061DB2F9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotClient", "BotClient\BotClient.csproj", "{C7721BB2-A71F-4487-9E1C-60E237AC33BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDFC4699-AA08-476A-89B7-DDC061DB2F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDFC4699-AA08-476A-89B7-DDC061DB2F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDFC4699-AA08-476A-89B7-DDC061DB2F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDFC4699-AA08-476A-89B7-DDC061DB2F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7721BB2-A71F-4487-9E1C-60E237AC33BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7721BB2-A71F-4487-9E1C-60E237AC33BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7721BB2-A71F-4487-9E1C-60E237AC33BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7721BB2-A71F-4487-9E1C-60E237AC33BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

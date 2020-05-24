@@ -1,0 +1,124 @@
+﻿        .glyphicon {
+            line-height: 1.3;
+        }
+
+        .ChatMain {
+            bottom: 10px;
+            right: 20px;
+            position: fixed;
+            width: 400px;
+            max-height: 550px;
+            border: 1px solid #3b5998;
+            color:white;
+        }
+
+        .btnMinimize, .btnSettings {
+            font-size: 15px;
+            background-color: transparent;
+            border: none;
+            /*float: right;*/
+            color: white;
+        }
+
+            .btnMinimize:hover, .btnSettings:hover {
+                background-color: #c4cde0;
+                color: #3b5998;
+            }
+
+        .ChatBody {
+            background-color: white;
+            max-height: 460px;
+        }
+
+        .ChatHeader {
+            background-color: #3b5998;
+            padding: 5px 5px;
+            height: 33px;
+            color: white;
+        }
+
+        .spnChat {
+            /*float: left;*/
+            font-size: 15px;
+        }
+
+        #btnSend {
+            background-color: #3b5998;
+            border: 1px solid #3b5998;
+            border-radius: 15px;
+            color: white;
+            top: 17px;
+            position: relative;
+            margin-left: 2px;
+        }
+
+        #txtInput {
+            height: 59px;
+            width: 330px;
+            border: 1px solid #3b5998;
+        }
+
+        .ChatControls {
+            border-top: 1px solid #3b5998;
+            background-color: #c4cde0;
+            padding: 5px;
+        }
+
+        .ChatArea {
+            height: 390px;
+            max-height: 400px;
+            color: black;
+            overflow-y: auto;
+            padding: 5px;
+            background-color:rgb(236,229,219);
+        }
+
+            .ChatArea .usr, .ChatArea .bot {
+                margin-bottom: 5px;
+            }
+
+            .ChatArea .TimeStamp {
+                margin-bottom: 10px;
+            }
+        .usr, .bot {
+            border-radius: 5px;
+            clear: both;
+            padding: 3px;   
+            max-width: 230px;         
+            word-wrap:break-word;
+            box-shadow: 3px 3px 3px grey;
+            border: 1px solid grey;
+        }
+
+        .bot {
+            float: left;
+            background-color: white;
+        }
+
+        .usr {
+            float: right;
+            background-color: rgb(225,255,199);
+        }
+
+        .TimeStamp {
+            font-size: 10px;
+            font-style: italic;            
+            color: grey;
+            clear: both;
+        }
+        .usr + .TimeStamp{
+            float: right;
+        }
+
+         .bot + .TimeStamp{
+             float: left;
+        }
+
+        .dropdown-menu{
+            width:130px;
+            text-align:left;
+            min-width:90px;
+        }
+        .dropdown-menu > li > a{
+            padding:5px;
+        }
